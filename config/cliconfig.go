@@ -1,14 +1,15 @@
 package config
 
 import (
+	"os"
+	"path/filepath"
+
 	"github.com/QOSGroup/qstars/client/context"
 	"github.com/QOSGroup/qstars/wire"
 	"github.com/spf13/viper"
-	"os"
-	"path/filepath"
 )
 
-const MaxGas = 20000
+const MaxGas = 200000
 
 var Clictx QStarsClientContext
 
